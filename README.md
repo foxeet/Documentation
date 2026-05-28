@@ -1,17 +1,42 @@
-# EOS.IO Technical White Paper
+# 思考问题汇集
 
-- [English](TechnicalWhitePaper.md)
-- [Russian](ru-RU/TechnicalWhitePaper.md) translated by [@blockchained](https://steemit.com/@blockchained)
-- [Chinese](zh-CN/TechnicalWhitePaper.md) translated by [@dayzh](https://steemit.com/@dayzh)
-- [Korean](ko-KR/TechnicalWhitePaper.md) translated by [@clayop](https://steemit.com/@clayop)
+我个人的思考问题、想法和笔记的 Markdown 汇集文档。
 
-# EOS Wiki
+## 组织方式
 
-- [English](https://github.com/EOSIO/eos/wiki)
+- 根目录平铺,按编号顺序排列:`001-xxx.md`、`002-xxx.md`、`003-xxx.md` ……
+- 文件名格式:`<编号>-<简短主题>.md`
+- 编号一旦分配不再复用,删除的问题保留编号空位
 
-# Translation Guide
+## 索引
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/eos-docs/localized.svg)](https://crowdin.com/project/eos-docs)
+| 编号 | 主题 | 日期 |
+|------|------|------|
+| —    | (暂无) | —  |
 
-If you want to add new language, review/update existing translation or help to finish specific translations, you can join and do that by following link:
-https://crowdin.com/project/eos-docs
+## 模板
+
+新建一个思考问题文档时,建议结构:
+
+```markdown
+# <问题标题>
+
+**日期**: YYYY-MM-DD
+**标签**: #tag1 #tag2
+
+## 问题
+
+<具体在思考什么>
+
+## 背景 / 触发
+
+<为什么开始想这个问题>
+
+## 思路
+
+<目前的想法、推理过程>
+
+## 结论 / 下一步
+
+<暂时的答案,或者待办的探索方向>
+```
