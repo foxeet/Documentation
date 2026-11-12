@@ -1,0 +1,46 @@
+{
+ "canvas": {
+  "w": 1920,
+  "h": 1080
+ },
+ "fps": 30,
+ "transparent": true,
+ "scenes": [
+  {
+   "id": "deals",
+   "type": "nest_compare",
+   "dur": 8.5,
+   "props": {
+    "prefix": "$",
+    "unit": "亿",
+    "items": [
+     {
+      "outer": "微软",
+      "outerEn": "Microsoft",
+      "inner": "动视暴雪",
+      "innerEn": "Activision Blizzard",
+      "value": 687,
+      "at": 0.2
+     },
+     {
+      "outer": "马斯克",
+      "outerEn": "Elon Musk",
+      "inner": "推特",
+      "innerEn": "Twitter",
+      "value": 440,
+      "at": 2.6
+     },
+     {
+      "outer": "博通",
+      "outerEn": "Broadcom",
+      "inner": "VMware",
+      "innerEn": "VMware",
+      "value": 610,
+      "at": 4.8,
+      "color": 2
+     }
+    ]
+   }
+  }
+ ]
+}

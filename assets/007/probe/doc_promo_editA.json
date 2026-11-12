@@ -1,0 +1,110 @@
+{
+ "canvas": {
+  "w": 1920,
+  "h": 1080
+ },
+ "fps": 30,
+ "theme": {
+  "bg": [
+   "#2a1668",
+   "#1b1f70",
+   "#0f2c6c"
+  ],
+  "glow": [
+   "#5a3bd6",
+   "#1b6fd0"
+  ],
+  "acc": "#22d9c9",
+  "acc2": "#1fdc9a",
+  "warm": "#ffb020",
+  "card": "#1a2a6c"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "type": "stat_orbit",
+   "dur": 4.5,
+   "caption": "占据 95% 的出海游戏投放市场份额",
+   "props": {
+    "from": 38,
+    "value": 95,
+    "suffix": "%"
+   }
+  },
+  {
+   "id": "s2",
+   "type": "pillars",
+   "dur": 4.5,
+   "caption": "有效策略, 海量数据和先进的工具支持",
+   "props": {
+    "items": [
+     {
+      "label": "有效策略",
+      "glyph": "strategy"
+     },
+     {
+      "label": "海量数据",
+      "glyph": "data"
+     },
+     {
+      "label": "先进的\n工具支持",
+      "glyph": "tools"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3",
+   "type": "logo_hub",
+   "dur": 4.5,
+   "caption": "庞大的应用数据库和独创的工具",
+   "props": {
+    "name": "星图数据",
+    "sub": "xingtu.example",
+    "satellites": [
+     {
+      "text": "应用商店\n数据库",
+      "side": "left",
+      "y": 70
+     },
+     {
+      "text": "独创的\n工具",
+      "side": "right",
+      "y": -150
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4",
+   "type": "big_counter",
+   "dur": 4.0,
+   "caption": "结合超 1200+ 案例的投放经验",
+   "props": {
+    "value": 1200,
+    "suffix": "+"
+   }
+  },
+  {
+   "id": "s5",
+   "type": "iso_stack",
+   "dur": 4.5,
+   "caption": "打通 ASO 和搜索广告数据",
+   "props": {
+    "labels": [
+     "ASO",
+     "Search Ads"
+    ]
+   }
+  },
+  {
+   "id": "s6",
+   "type": "cloud_progress",
+   "dur": 4.0,
+   "caption": "现在就搭上星图 StarBrain 的快车",
+   "props": {
+    "brand": "StarBrain"
+   }
+  }
+ ]
+}
